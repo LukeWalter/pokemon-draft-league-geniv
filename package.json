@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "^1.0.3",
+    "@nuxt/image": "^1.0.0",
+    "@nuxtjs/tailwindcss": "^6.12.2",
+    "nuxt": "^3.8.2",
+    "vue": "^3.3.8",
+    "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@nuxt/ui": "^4.10.0",
+    "@vue-icons-plus/sfc-3": "^0.1.0",
+    "motion": "^10.18.0",
+    "vue-grid-layout": "^2.4.0",
+    "vue-icons-plus": "^0.1.9"
+  }
+}

@@ -1,0 +1,202 @@
+{
+    "cloudy": {
+        "full-name": "Cloudy with a Chance of Manaphy",
+        "matchups": [
+            "friends",
+            "alex",
+            "wheelers",
+            "explorers",
+            "palace",
+            "rise",
+            "crystals"
+        ],
+        "team": [
+            "togekiss",
+            "manaphy",
+            "milotic",
+            "magnezone",
+            "spiritomb",
+            "toxicroak",
+            "dusknoir",
+            "empoleon",
+            "skuntank",
+            "bastiodon"
+        ],
+        "variants": {}
+    },
+    "crystals": {
+        "full-name": "Snowpoint Crystals",
+        "matchups": [
+            "explorers",
+            "palace",
+            "rise",
+            "wheelers",
+            "friends",
+            "alex",
+            "cloudy"
+        ],
+        "team": [
+            "lopunny",
+            "sableye",
+            "froslass",
+            "azelf",
+            "floatzel",
+            "tangrowth",
+            "yanmega",
+            "bibarel",
+            "lickilicky",
+            "snover"
+        ],
+        "variants": {}
+    },
+    "explorers": {
+        "full-name": "Explorers of Sky Forme",
+        "matchups": [
+            "crystals",
+            "friends",
+            "alex",
+            "cloudy",
+            "wheelers",
+            "palace",
+            "rise"
+        ],
+        "team": [
+            "shaymin",
+            "heatran",
+            "chimecho",
+            "gastrodon",
+            "pachirisu",
+            "drapion",
+            "infernape",
+            "riolu",
+            "cherrim",
+            "carnivine"
+        ],
+        "variants": {}
+    },
+    "friends": {
+        "full-name": "Piplup's Frolicking Friends",
+        "matchups": [
+            "cloudy",
+            "explorers",
+            "palace",
+            "rise",
+            "crystals",
+            "wheelers",
+            "alex"
+        ],
+        "team": [
+            "arceus",
+            "bronzong",
+            "gallade",
+            "camerupt",
+            "mismagius",
+            "gliscor",
+            "regigigas",
+            "purugly",
+            "rotommow",
+            "piplup"
+        ],
+        "variants": {}
+    },
+    "palace": {
+        "full-name": "Krickitune's Pasta Palace",
+        "matchups": [
+            "rise",
+            "crystals",
+            "friends",
+            "alex",
+            "cloudy",
+            "explorers",
+            "wheelers"
+        ],
+        "team": [
+            "palkia",
+            "ludicolo",
+            "lucario",
+            "rotomheat",
+            "porygonz",
+            "rhyperior",
+            "leafeon",
+            "hippowdon",
+            "rotomfan",
+            "kricketune"
+        ],
+        "variants": {}
+    },
+    "rise": {
+        "full-name": "Pokémon: The Rise of Darkrai (2007)",
+        "matchups": [
+            "palace",
+            "wheelers",
+            "crystals",
+            "friends",
+            "alex",
+            "cloudy",
+            "explorers"
+        ],
+        "team": [
+            "dialga",
+            "darkrai",
+            "gardevoir",
+            "weavile",
+            "magmortar",
+            "mesprit",
+            "rampardos",
+            "torterra",
+            "lumineon",
+            "vespiquen"
+        ],
+        "variants": {}
+    },
+    "wheelers": {
+        "full-name": "18 Wheelers",
+        "matchups": [
+            "alex",
+            "rise",
+            "cloudy",
+            "crystals",
+            "explorers",
+            "friends",
+            "palace"
+        ],
+        "team": [
+            "cresselia",
+            "staraptor",
+            "mamoswine",
+            "electivire",
+            "glaceon",
+            "abomasnow",
+            "swellow",
+            "ambipom",
+            "luxray",
+            "bronzor"
+        ],
+        "variants": {}
+    },
+    "alex": {
+        "full-name": "Untitled",
+        "matchups": [
+            "wheelers",
+            "cloudy",
+            "explorers",
+            "palace",
+            "rise",
+            "crystals",
+            "friends"
+        ],
+        "team": [
+            "giratina",
+            "garchomp",
+            "uxie",
+            "rotomwash",
+            "roserade",
+            "drifblim",
+            "honchkrow",
+            "rotomfrost",
+            "zangoose",
+            "probopass"
+        ],
+        "variants": {}
+    }
+}
