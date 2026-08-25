@@ -48,7 +48,7 @@ export default {
 
     const dex = await dexResponse.json();
     const learnsets = await learnsetResponse.json();
-    console.log(dex["arceus"]["name"]);
+    console.log("Arceus check: " + dex["arceus"].name);
     const dexEntry = dex[props.name];
     console.log(dexEntry);
 
@@ -119,7 +119,7 @@ export default {
     ];
 
     const hasDangerMoves = dangerMoves.map((move) => {
-      console.log(learnset.value.learnset[move]);
+      //console.log(learnset.value.learnset[move]);
       return learnset.value.learnset[move] != undefined;
     })
 
@@ -130,8 +130,8 @@ export default {
         return dangerAbilities.includes(ability);
       });
 
-    console.log("A S" + hasDangerMoves);
-    console.log("AS" + hasDangerAbilities);
+    console.log("hasDangerMoves: " + hasDangerMoves);
+    console.log("hasDangerAbilities: " + hasDangerAbilities);
     
     const lowername = props.name;
     const prettyname = dexEntry.name;
@@ -150,15 +150,15 @@ export default {
       forms.value = [];
     } else if (dexEntry.baseSpecies != undefined) {
       forms.value = dex[dexEntry.baseSpecies.toLowerCase().replace("-", "")].formeOrder.map((form) => {
-        return { value: form.toLowerCase().replace("-", "") };
+        return { value: form.toLowerCase().replaceAll("-", "") };
       });
     } else if (dexEntry.formeOrder != undefined) {
       forms.value = dexEntry.formeOrder.map((form) => {
-        return { value: form.toLowerCase().replace("-", "") };
+        return { value: form.toLowerCase().replaceAll("-", "") };
       });
     }
-    console.log("Firsr firn " + forms);
-    console.log("Ptret" + dex[forms.value[0]]);
+    console.log(forms);
+    console.log("First form: " + dex[forms.value[0]]);
 
     const onFormChange = (e) => {
       const pkmnName = (e.target.value.substring(0, 6) == "arceus") ? "arceus" + e.target.value.substring(6, e.target.value.length) : e.target.value;

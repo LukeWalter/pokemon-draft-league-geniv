@@ -3,7 +3,7 @@
         "full-name": "Cloudy with a Chance of Manaphy",
         "matchups": [
             "friends",
-            "alex",
+            "4got",
             "wheelers",
             "explorers",
             "palace",
@@ -32,7 +32,7 @@
             "rise",
             "wheelers",
             "friends",
-            "alex",
+            "4got",
             "cloudy"
         ],
         "team": [
@@ -54,7 +54,7 @@
         "matchups": [
             "crystals",
             "friends",
-            "alex",
+            "4got",
             "cloudy",
             "wheelers",
             "palace",
@@ -83,7 +83,7 @@
             "rise",
             "crystals",
             "wheelers",
-            "alex"
+            "4got"
         ],
         "team": [
             "arceus",
@@ -105,7 +105,7 @@
             "rise",
             "crystals",
             "friends",
-            "alex",
+            "4got",
             "cloudy",
             "explorers",
             "wheelers"
@@ -131,7 +131,7 @@
             "wheelers",
             "crystals",
             "friends",
-            "alex",
+            "4got",
             "cloudy",
             "explorers"
         ],
@@ -152,7 +152,7 @@
     "wheelers": {
         "full-name": "18 Wheelers",
         "matchups": [
-            "alex",
+            "4got",
             "rise",
             "cloudy",
             "crystals",
@@ -174,8 +174,8 @@
         ],
         "variants": {}
     },
-    "alex": {
-        "full-name": "Untitled",
+    "4got": {
+        "full-name": "Gen 4-got to name my team",
         "matchups": [
             "wheelers",
             "cloudy",
