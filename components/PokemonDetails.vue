@@ -61,7 +61,7 @@ export default {
       learnset.value = learnsets[props.name];
     }
 
-    const writeup = (dexEntry.baseSpecies != undefined) ? writeups[dexEntry.baseSpecies.toLowerCase().replace("-", "")] : writeups[props.name];
+    const writeup = (dexEntry.baseSpecies != undefined && !((props.name.substring(0, 5) == "rotom" && props.name.length > 5))) ? writeups[dexEntry.baseSpecies.toLowerCase().replace("-", "")] : writeups[props.name];
 
     const types = [
       "Normal",
